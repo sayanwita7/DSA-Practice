@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Function to perform modular exponentiation (Exponentiation by Squaring)
 int mod_exp(int base, int exponent, int modulus) {
     int result = 1;
     base = base % modulus;  // In case base is larger than modulus
@@ -18,8 +17,6 @@ int main() {
     int P, G, a, b;
     printf("Enter a prime number (P): ");
     scanf("%d", &P);
-    
-    /*int G;*/
     printf("Enter a primitive root (G): ");
     scanf("%d", &G);
     

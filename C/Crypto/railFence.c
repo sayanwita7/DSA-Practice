@@ -41,8 +41,7 @@ void encrypt (char *pt, char *ct, int rails){
 }
 
 void decrypt(char *ct, char *dt, int rails) {
-    int i, j, count;
-    int len = strlen(ct);
+    int i, j, count,len;
     char code[100][1000];
     
     len=strlen(ct);
